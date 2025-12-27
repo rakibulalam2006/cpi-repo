@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,10 +13,9 @@
   <link rel="stylesheet" href="styles.css">
   <title>Map</title>
 </head>
-
-<body>
-  <div>
-    <div class="navbar bg-base-100 shadow-sm fixed">
+<body class="max-w-[1100px] mx-auto">
+  <!-- navbar -->
+    <div class="navbar bg-base-100 shadow-sm mx-auto ">
       <div class="navbar-start">
         <div class="dropdown">
           <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -33,10 +31,10 @@
             <li class="hover:underline hover:text-[#3F87CB]"><a href="">Academics</a></li>
             <li class="hover:underline hover:text-[#3F87CB]"><a href="">Admission</a></li>
             <li class="hover:underline hover:text-[#3F87CB]"><a href="map.html">Map</a></li>
-            <li class="hover:underline hover:text-[#3F87CB]"><a href="">Login</a></li>
+            <li class="hover:underline hover:text-[#3F87CB]"><a href="login.htm">Login</a></li>
           </ul>
         </div>
-        <a href="index.html" class="btn btn-ghost text-xl">Chittagong Polytechnic Institute</a>
+        <a href="index.html" class="btn btn-ghost text-xl"><span><img class="w-9" src="assets/cpi-logo.png" alt=""></span>Chittagong Polytechnic Institute</a>
       </div>
       <div class="navbar-center hidden lg:flex">
         <ul class="menu menu-horizontal px-1 font-semibold">
@@ -46,13 +44,12 @@
             <li class="hover:underline hover:text-[#3F87CB]"><a href="">Academics</a></li>
             <li class="hover:underline hover:text-[#3F87CB]"><a href="">Admission</a></li>
             <li class="hover:underline hover:text-[#3F87CB]"><a href="map.html">Map</a></li>
-            <li class="hover:underline hover:text-[#3F87CB]"><a href="">Login</a></li>
+            <li class="hover:underline hover:text-[#3F87CB]"><a href="login.htm">Login</a></li>
       </div>
     </div>
-  </div>
   <!-- map -->
   <div class="w-full h-[450px] overflow-hidden ">
-    <iframe class="w-full h-full mt-[80px]" src="https://www.google.com/maps?q=chittagong+polytechnic+institute&output=embed">
+    <iframe class="w-full h-full mt-[10px]" src="https://www.google.com/maps?q=chittagong+polytechnic+institute&output=embed">
     </iframe>
   </div>
   <!-- footer -->
